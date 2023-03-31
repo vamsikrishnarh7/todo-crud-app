@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Robot", Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 50px auto;
+    width: 50%;
+}
+#app-title{
+    margin-bottom: 15px;
+}
+.create-item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.new-item{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.add-btn{
+    margin-left: 2px;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+.add-btn:hover{
+    border: 2px solid linear-gradient(to up, palegreen , white);
+}
+.notes{
+    background-color: rgb(255,249,222);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+#the-note{
+    flex-grow: 1;
+}
+.dlt-btn{
+    background-color: rgb(220,53,69);
+    color: white;
+}
+.update-btn{
+    background-color: rgb(255,193,7);
+}
+ul{
+    list-style: none;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .container{
+        width: 90%;
+    }
+}
